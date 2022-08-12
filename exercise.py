@@ -47,12 +47,19 @@ r = float(input("Input the radius of the circle="))
 area = math.pi * r *r 
 print ("Area of a circle = %.2f" %area)'''
 
-# task 5
+'''# task 5
 
 import random
 target_num, guess_num = random.randint(1, 10), 0
 while target_num != guess_num: 
     guess_num = int(input("Guess a number from 1 to 10 till you get it right="))
-print ("Well guessed")
+print ("Well guessed")'''
 
 
+# task 6
+
+Celsius_1 = float(input("Temperature value in Celsius="))
+Fahrenheit_1 = (Celsius_1 * 1.8) + 32
+print("The %.2f degree Celsius is equal to: %.2f Fahrenheit"
+    %(Celsius_1, Fahrenheit_1))
+    
