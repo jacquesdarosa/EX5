@@ -56,10 +56,38 @@ while target_num != guess_num:
 print ("Well guessed")'''
 
 
-# task 6
+'''# task 6
 
 Celsius_1 = float(input("Temperature value in Celsius="))
 Fahrenheit_1 = (Celsius_1 * 1.8) + 32
 print("The %.2f degree Celsius is equal to: %.2f Fahrenheit"
-    %(Celsius_1, Fahrenheit_1))
-    
+    %(Celsius_1, Fahrenheit_1))'''
+
+# task 7 - pattern
+
+n=5
+for i in range(n):
+    for j in range(i):
+        print ('* ', end="")
+    print('')
+
+for i in range(n,0,-1):
+    for j in range(i):
+        print('* ', end="")
+    print('')
+	
+
+# task 8 Fibonnaci series
+
+x,y = 0,1
+
+while y<50:
+    print(y)
+    x,y = y, x+y
+
+
+
+
+
+
+
